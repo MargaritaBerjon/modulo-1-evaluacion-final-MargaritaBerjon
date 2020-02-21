@@ -6,8 +6,31 @@
     background-position: center;
     height: 100vh;
     display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: $color-white;
+    text-align: center;
+  }
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2.944rem;
+  }
+  &__subtitle {
+    margin-top: 0.5556rem;
   }
 
+  &__buttom {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-image: url("../images/ico-scroll-down.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: $color-white;
+    margin-top: 2.5rem;
+  }
   &__hamb__menu {
     width: 44px;
     height: 44px;
