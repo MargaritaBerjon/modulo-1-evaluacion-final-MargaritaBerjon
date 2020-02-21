@@ -2,4 +2,19 @@
   &__container {
     margin: 1.667rem 0.8333rem 2.5rem;
   }
+  &__author {
+    font-family: $font-secondary;
+    font-size: 14px;
+    color: $color-author;
+  }
+  &__title {
+    font-size: 24px;
+    font-family: $font-main;
+    font-weight: bold;
+  }
+  &__content {
+    font-family: $font-secondary;
+    font-size: 18px;
+    color: $color-secondary;
+  }
 }
