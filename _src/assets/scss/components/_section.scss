@@ -40,7 +40,6 @@
   &__button {
     grid-column: 2 /3;
     background-color: $color-cta;
-    width: 184px;
     height: 45px;
     border-radius: 22.5px;
     font-family: $font-secondary;
@@ -62,7 +61,7 @@
       grid-column: 3 /4;
     }
     &__button {
-      grid-column: 1 /4;
+      grid-column: 2 /3;
     }
   }
 }
