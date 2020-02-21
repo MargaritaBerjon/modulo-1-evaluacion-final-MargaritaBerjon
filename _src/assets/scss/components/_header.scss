@@ -5,11 +5,15 @@
     background-repeat: no-repeat;
     background-position: center;
     height: 100vh;
+    display: flex;
   }
+
   &__hamb__menu {
     width: 44px;
     height: 44px;
-    background-image: url("./ico-menu.svg");
+    background-image: url("../images/ico-menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
     background-color: $color-ham-menu;
     position: fixed;
   }
