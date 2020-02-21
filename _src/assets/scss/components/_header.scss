@@ -1,1 +1,16 @@
-
+.header {
+  &__wrapper {
+    background-image: url("../images/cover.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+  }
+  &__hamb__menu {
+    width: 44px;
+    height: 44px;
+    background-image: url("./ico-menu.svg");
+    background-color: $color-ham-menu;
+    position: fixed;
+  }
+}
