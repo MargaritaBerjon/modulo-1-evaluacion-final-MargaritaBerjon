@@ -4,10 +4,29 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: $color-dark-background;
+    padding: 3.333rem 6.889rem 3.333rem 6.889rem;
+    color: $color-white;
+    font-family: $font-secondary;
   }
   &__list {
-    text-decoration: none;
     list-style: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 1.88;
+    margin-bottom: 1.667rem;
+  }
+
+  &__list a {
+    color: $color-white;
+  }
+
+  &__copy {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.88;
   }
 
   @media (min-width: 768px) {
@@ -25,6 +44,6 @@
 .footer__list {
   border: solid 3px blue;
 }
-small {
+.footer__copy {
   border: solid 3px green;
 }
