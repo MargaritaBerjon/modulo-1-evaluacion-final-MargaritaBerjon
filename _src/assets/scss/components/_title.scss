@@ -17,7 +17,6 @@
     font-size: 18px;
     color: $color-secondary;
     padding-top: 0.8333rem;
-    padding-bottom: 1.667rem;
   }
 
   &__cta {
@@ -29,5 +28,17 @@
     font-family: $font-secondary;
     font-size: 20px;
     font-weight: 500;
+    margin-top: 1.667rem;
+  }
+  @media (min-width: 768px) {
+    &__container {
+      margin: 1.667rem 2.167rem 3.333rem 2.167rem;
+    }
+    &__title {
+      font-size: 26px;
+    }
+    &__content {
+      font-size: 20px;
+    }
   }
 }
