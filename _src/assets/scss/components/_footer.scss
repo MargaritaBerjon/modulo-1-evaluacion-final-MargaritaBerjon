@@ -5,9 +5,30 @@
     align-items: center;
     justify-content: center;
     background-color: $color-dark-background;
-    padding: 3.333rem 6.889rem 3.333rem 6.889rem;
     color: $color-white;
     font-family: $font-secondary;
+    text-align: center;
+  }
+
+  &__goUp {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-image: url("../images/ico-arrow.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+    background-color: $color-white;
+    transform: translateY(-21px);
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem 6.889rem 3.333rem 6.889rem;
+    width: 100%;
   }
   &__list {
     list-style: none;
@@ -24,26 +45,15 @@
   &__copy {
     display: flex;
     flex-direction: column;
-    text-align: center;
     font-size: 14px;
     line-height: 1.88;
   }
 
   @media (min-width: 768px) {
-    &__container {
+    &__content {
       flex-direction: row-reverse;
-      justify-content: space-evenly;
+      justify-content: space-between;
+      padding: 0rem 2.167rem 0rem 2.167rem 2.5rem;
     }
   }
-}
-
-.footer__container {
-  border: solid 3px red;
-}
-
-.footer__list {
-  border: solid 3px blue;
-}
-.footer__copy {
-  border: solid 3px green;
 }
