@@ -61,4 +61,10 @@
       font-size: 24px;
     }
   }
+
+  @media (min-width: 1200px) {
+    &__title {
+      font-size: 100px;
+    }
+  }
 }

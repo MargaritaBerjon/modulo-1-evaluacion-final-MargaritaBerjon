@@ -1,0 +1,19 @@
+.header {
+  &__button {
+    animation-name: go-down;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    cursor: pointer;
+  }
+}
+@keyframes go-down {
+  0% {
+    top: 120%;
+  }
+  50% {
+    top: 140%;
+  }
+  100% {
+    top: 120%;
+  }
+}
