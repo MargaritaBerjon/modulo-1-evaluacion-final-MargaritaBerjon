@@ -46,12 +46,25 @@
     font-family: $font-secondary;
     color: $color-white;
     font-size: 20px;
-    font-size: 20px;
     font-weight: 500;
   }
   @media (min-width: 768px) {
     &__container {
       padding: 1.667rem 2.222rem 3.333rem;
+    }
+
+    &__title {
+      font-size: 26px;
+    }
+
+    &__subtitle {
+      font-size: 24px;
+    }
+
+    &__content {
+      font-family: $font-secondary;
+      font-size: 20px;
+      margin-bottom: 2.5rem;
     }
 
     &__item1 {
@@ -67,6 +80,12 @@
     }
     &__button {
       grid-column: 2 /3;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    &__container {
+      padding: 3.333rem 8rem 3.333rem 8rem;
     }
   }
 }

@@ -40,5 +40,24 @@
     &__content {
       font-size: 20px;
     }
+    &__cta {
+      border: solid $color-cta 2px;
+      width: 91px;
+    }
+  }
+  @media (min-width: 1200px) {
+    &__container {
+      margin: 3.333rem 15.28rem 3.333rem 15.28rem;
+    }
+    &__title {
+      font-size: 26px;
+    }
+    &__content {
+      font-size: 20px;
+    }
+    &__cta {
+      border: solid $color-cta 2px;
+      width: 91px;
+    }
   }
 }

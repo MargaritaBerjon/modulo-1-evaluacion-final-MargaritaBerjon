@@ -18,3 +18,24 @@
     top: 90%;
   }
 }
+
+.grid {
+  &__button {
+    &:hover {
+      background-color: #e07b084b;
+      color: $color-cta;
+    }
+  }
+}
+.main__cta {
+  &:hover {
+    background-color: #e07b084b;
+    color: $color-white;
+    width: 5.556rem;
+  }
+}
+
+.footer__goUp:hover {
+  background-size: 1.5rem;
+  transform: translateY(-25px);
+}
