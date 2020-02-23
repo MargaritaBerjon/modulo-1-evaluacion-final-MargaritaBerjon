@@ -51,4 +51,13 @@
     background-color: $color-ham-menu;
     position: fixed;
   }
+
+  @media (min-width: 768px) {
+    &__title {
+      font-size: 80px;
+    }
+    &__subtitle {
+      font-size: 24px;
+    }
+  }
 }
