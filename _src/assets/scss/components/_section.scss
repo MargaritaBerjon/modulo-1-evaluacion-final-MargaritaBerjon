@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
     background-color: $color-light-background;
-    padding: 30px 70px 60px;
+    padding: 1.667rem 3.889rem 3.333rem;
   }
 
   &__title {
@@ -50,6 +50,10 @@
     font-weight: 500;
   }
   @media (min-width: 768px) {
+    &__container {
+      padding: 1.667rem 2.222rem 3.333rem;
+    }
+
     &__item1 {
       grid-column: 1 /2;
     }
