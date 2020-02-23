@@ -1,5 +1,6 @@
 .header {
-  &__button {
+  &__buttom {
+    position: absolute;
     animation-name: go-down;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -8,12 +9,12 @@
 }
 @keyframes go-down {
   0% {
-    top: 120%;
+    top: 90%;
   }
   50% {
-    top: 140%;
+    top: 85%;
   }
   100% {
-    top: 120%;
+    top: 90%;
   }
 }
