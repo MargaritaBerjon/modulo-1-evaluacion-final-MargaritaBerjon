@@ -49,6 +49,11 @@
     line-height: 1.88;
   }
 
+  &__heart:after {
+    content: "\2665";
+    color: red;
+  }
+
   @media (min-width: 768px) {
     &__content {
       flex-direction: row;
