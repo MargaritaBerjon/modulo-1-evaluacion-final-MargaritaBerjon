@@ -21,6 +21,7 @@
 
 .grid {
   &__button {
+    transition: 2s ease;
     &:hover {
       background-color: #e07b084b;
       color: $color-cta;
@@ -28,6 +29,7 @@
   }
 }
 .main__cta {
+  transition: 0.5s linear;
   &:hover {
     background-color: #e07b084b;
     color: $color-white;
@@ -36,6 +38,7 @@
 }
 
 .footer__goUp:hover {
+  transition: 1s ease;
   background-size: 1.5rem;
   transform: translateY(-25px);
 }
