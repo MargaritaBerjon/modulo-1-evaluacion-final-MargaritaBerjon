@@ -24,7 +24,6 @@
     text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
     font-size: 42px;
     text-transform: uppercase;
-    font-weight: bold;
   }
 
   &__subtitle {
@@ -41,7 +40,6 @@
     background-position: center;
     background-color: $color-white;
     margin-top: 2.5rem;
-    cursor: pointer;
   }
 
   &__hamb__menu {
