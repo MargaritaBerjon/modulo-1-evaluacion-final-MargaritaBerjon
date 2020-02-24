@@ -13,7 +13,7 @@
     </head>
     
     <body>
-        <div class="page"> <a href="https://adalab.es/" alt="Ir a Adalab" title="Ir a Adalab" target="_blank"><nav class="header__hamb__menu"></nav></a>
+        <div class="page"> <a href="https://adalab.es/" alt="Ir a Adalab" title="Ir a Adalab" target="_blank"><nav class="header__hamb__menu" aria-label="Menu"></nav></a>
 
             <header
             class="header__wrapper" id="header_top">
@@ -21,7 +21,8 @@
                      <h1 class="header__title"><spam>Anonymous</spam> <spam>Proxy</spam></h1>
 
                     <p class="header__subtitle">In hac habitasse platea dictumst.</p>
-                    <spam class="header__buttom" onClick="location='#reason_why'"></spam>
+                    <spam class="header__buttom" onClick="location='#reason_why'"
+                    aria-label="Go down"></spam>
                 </div>
                 </header>
                 <main class="main__container"> <small class="main__author">Insomnia Tips</small>
@@ -29,8 +30,8 @@
                      <h2 class="main__title">Looking Through A Window</h2>
 
                     <p class="main__content">Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at
-                        luctus ex diam nec lectus. Vivamus semper sodales rutrum.</p> <a href="#"><button class="main__cta">Go</button></a>
-
+                        luctus ex diam nec lectus. Vivamus semper sodales rutrum.</p>
+                    <button class="main__cta">Go</button>
                 </main>
                 <section class="grid__container" id="reason_why">
                      <h3 class="grid__title">3 Reasons to purchase</h3>
@@ -52,7 +53,7 @@
                     </div>
                     <button class="grid__button">More reasons</button>
                 </section>
-                <footer class="footer__container" onclick="location='#header_top'">
+                <footer class="footer__container" onclick="location='#header_top'" aria-label="Go up">
                     <div class="footer__goUp"></div>
                     <div class="footer__content">
                         <ul class="footer__list footer__list__content">
