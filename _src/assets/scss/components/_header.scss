@@ -67,3 +67,24 @@
     }
   }
 }
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  &_2 {
+    font-family: $font-main;
+    color: white;
+  }
+  &_2_sub {
+    color: white;
+  }
+  @media (min-width: 768px) {
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: space-between;
+    background-color: $color-dark-background;
+  }
+}
